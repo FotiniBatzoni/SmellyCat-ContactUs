@@ -1,25 +1,27 @@
-footer {
+
+  footer {
     background-color: #000;
     color: #fff;
     height: 174px;
     width: 1440px;
 
-
     margin: auto;
     padding: 0; 
 
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+
   
   .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 1200px;;
   }
   
   .footer-section {
@@ -77,7 +79,6 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-     position: relative;
   }
   
   #footer-logo {
@@ -106,6 +107,17 @@ footer {
     position: relative;
     top:20px;
   }
+
+  @media only screen and (max-width: 1440px) {
+    footer {
+      width: auto;
+      height: auto;
+      padding: 20px;
+    }
+  }
+
+
+  
 
   @media only screen and (max-width: 1300px) {
     footer {

@@ -1,6 +1,6 @@
 
 .header {
-    width: 1440px;
+   max-width: 1435px;
     margin: auto;
     padding: 0; 
     height: 48px;
@@ -13,8 +13,8 @@ nav {
 
 .underline {
   background-color: #A0A9BA;
-  height: 1px;
-  
+  height: 2px;
+  width:100%;
 }
 
 .logo-kitty {

@@ -246,7 +246,7 @@ textarea::placeholder {
 #messageLabel{
   color: #000000;
   font-family: Manrope;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 14px;
   letter-spacing: -0.17px;
   line-height: 17px;
@@ -263,12 +263,8 @@ textarea::placeholder {
     text-align: right;  
     width: 55px;
     height: 19px;
+    margin-left: 270px;
     }
-
-#optional{
-  float: inline-end;
-  margin-right: -25px;
-}
 
 textarea {
   width: 476px;
